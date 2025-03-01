@@ -3,12 +3,10 @@ from aiogram.filters import Command
 import asyncio
 import logging
 import requests
+from config import API_TOKEN
 
 # Включаем логирование
 logging.basicConfig(level=logging.INFO)
-
-# Ваш токен бота
-API_TOKEN = '8001285306:AAG9aTxJNrmgtFntvJUjgko5oaqwMwNbBnc'  # Замените на ваш токен от @BotFather
 
 # Инициализация бота и диспетчера
 bot = Bot(token=API_TOKEN)
